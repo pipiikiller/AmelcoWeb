@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="/AmelcoWeb/WebApp" method="get">
+    <input type="submit" name="Get Country" value="View Country" />
+    <br>
+    <input type = "Text" Size = 20 Value = "" Name = "country" Maxlength="15" placeholder="Enter the country" required>
+    <input type="submit" name="Get Competitions" value="View Competitions" />
+    <br>
+    <input type = "Text" Size = 20 Value = "" Name = "competition" Maxlength="15" placeholder="Enter the competition Id">
+    <input type="submit" name="Get Events" value="View Events" />
+	</form>
+</body>
+<br>
+<br>
+<form action="/AmelcoWeb/WebApp" method="get">
+    <input type = "Text" Size = 20 Value = "" Name = "countryName" Maxlength="30" placeholder="Add a country Name" required>
+    <input type = "Text" Size = 20 Value = "" Name = "countryCode" Maxlength="15" placeholder="Add a country Code(Must be > 25)" required style="display:table-cell; width:60%">
+    <input type="submit" name="Add Country" value="Add a country" />
+    <br>
+    <input type = "Text" Size = 20 Value = "" Name = "competitionName" Maxlength="30" placeholder="Enter the competition Name">
+    <input type = "Text" Size = 20 Value = "" Name = "competitionCode" Maxlength="15" placeholder="Add a competition Code(Must be > 31)"
+     style="display:table-cell; width:60%">
+    <input type="submit" name="Add Competition" value="Add a event" />
+	</form>
+</html>
